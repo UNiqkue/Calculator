@@ -310,20 +310,6 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/btn_divide"
-                android:text="/"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="2dp"
-                android:textSize="30sp"
-                android:minHeight="80dp"
-                android:layout_weight="1"
-                android:textColor="@color/colorNumBtnText"
-                android:background="@color/colorNumBtnBackground"
-                />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btn_equal"
                 android:text="="
                 android:textSize="30sp"
@@ -333,6 +319,22 @@
                 android:textColor="#fff"
                 android:background="#666"
                 />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_divide"
+                android:text="/"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="30sp"
+                android:minHeight="80dp"
+                android:layout_weight="1"
+                android:textColor="@color/colorFuncBtnText"
+                android:background="@color/colorFuncBtnBackground"
+                />
+
+
         </LinearLayout>
 
 

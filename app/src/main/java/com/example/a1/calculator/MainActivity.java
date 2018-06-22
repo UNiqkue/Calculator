@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnClear;
     private TextView tvProcessor, tvResult;
     private Button btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix, btnSeven, btnEight, btnNine, btnZero;
-    private Button btnMultiply, btnMinus, btnPlus, btnDivide, btnDecimal, btnBack, btnSmallBracket, btnEqual, btnPercentage, BtnSmallBracket;
+    private Button btnMultiply, btnMinus, btnPlus, btnDivide, btnDecimal, btnBack, btnSmallBracket, btnEqual, btnPercentage;
     private String processor;
     private Boolean isSmallBracketOpen;
     private HorizontalScrollView hsvUserInput;
